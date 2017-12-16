@@ -15,7 +15,7 @@ any 2 strings.
 REST (or SOAP) web service.
 
 # SOLUTION
-Maven Multimodule web project made in JAVA 
+Maven Multimodule web project made in JAVA 8 
 
 The API REST module is very simple
 Single POST endpoint with JSON content type. The Request DTO has the two words to compare and the boolean to configure the operation as case sensitive or not.
