@@ -13,3 +13,15 @@ change one into the other, and there is no way to do it with fewer than three ed
 any 2 strings.
 2. Extension - Develop a small web application that exposes this functionality as a
 REST (or SOAP) web service.
+
+# SOLUTION
+Maven Multimodule web project made in JAVA 
+
+The API REST module is very simple
+Single POST endpoint with JSON content type. The Request DTO has the two words to compare and the boolean to configure the operation as case sensitive or not.
+Tested with Jsonpath and SpringTest. Mockito has been added but not used at the end
+
+The Core module contains the algorithm that has been used to solve this problem: Levenshtein
+Created using the TDD approach
+
+Common module is just to configure plugins and easilly add further plugins in the future and modify the behavior between any environments defined.
