@@ -22,7 +22,7 @@
 
 	<properties>
 		<spring-version>4.3.6.RELEASE</spring-version>
-		<log4j2-version>2.11.2</log4j2-version>
+		<log4j2-version>2.13.3</log4j2-version>
 		<jackson-version>2.9.10.1</jackson-version>
 		<jsonPath-version>2.4.0</jsonPath-version>
 	</properties>
